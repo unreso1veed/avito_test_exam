@@ -7,9 +7,8 @@
 ---
 
 ## Структура проекта
-/
-├── exercise 1/
-│ └── bugs.md
-└── exercise 2/
-  └── bugs.md
+- `exercise 1/`
+  - `bugs.md`
+- `exercise 2/`
+  - (автотесты появятся позже)
 
