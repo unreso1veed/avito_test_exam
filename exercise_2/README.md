@@ -29,11 +29,15 @@
 # Установка и запуск тестов
 ## Клонирование репозитория и переход в директорию
 git clone https://github.com/unreso1veed/avito_test_exam
+
 cd avito_test_exam/exercise_2
 ## Создание виртуального окружения
 python -m venv venv
+
 source venv/bin/activate    --  # Linux / macOS
+
 или
+
 venv\Scripts\activate       --  # Windows
 ## Установка зависимостей
 pip install -r requirements.txt
@@ -43,20 +47,27 @@ pip install -r requirements.txt
 2) Без генерации html отчета
 (реализовано через pytest-html, Allure прикрутить не успел) 
 
-Для запуска с генерацией отчета: 
+Для запуска с генерацией отчета:
+
 pytest tests/ --html=report.html --self-contained-html
+
 Для запуска без генерации отчета: 
+
 pytest tests/ -v
 
 ### Результат прогонки тестов
 Результат прогонки тестов в консоли: 
 <ссылка на img> 
+
 Результат прогонки тестов в отчете:
 <ссылка на img>
 ## Тестовая документация
 Тестовая документация представлена .md файлами, содержащими тест-кейсы и баг-репорты, а так же отчетом о прогонке
+
 TESTCASES.md - тест-кейсы
+
 BUGS.md - баг-репорты
+
 report.html - отчет о прогонке тестов 
 
 ## Примечания
