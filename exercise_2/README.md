@@ -53,7 +53,7 @@ pytest tests/ --html=report.html --self-contained-html
 
 Для запуска без генерации отчета: 
 
-pytest tests/ -v
+pytest tests
 
 ### Результат прогонки тестов
 Результат прогонки тестов в консоли: 
