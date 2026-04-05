@@ -16,7 +16,7 @@
     - `test_stats_update_timer.py`
     - `test_stats_start_timer.py`
     - `test_stats_stop_timer.py`
-  - `mobile/`
+  - `test_mobile/`
     - `test_theme_switch.py`
 - `utils/`
   - `driver_utils.py`
@@ -28,7 +28,7 @@
 -  `report.html`
 # Установка и запуск тестов
 ## Клонирование репозитория и переход в директорию
-git clone <адрес>
+git clone https://github.com/unreso1veed/avito_test_exam
 cd avito_test_exam/exercise_2
 ## Создание виртуального окружения
 python -m venv venv
