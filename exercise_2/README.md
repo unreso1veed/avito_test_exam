@@ -32,9 +32,9 @@ git clone https://github.com/unreso1veed/avito_test_exam
 
 cd avito_test_exam/exercise_2
 ## Создание виртуального окружения
-python -m venv venv
+python -m venv .venv
 
-source venv/bin/activate    --  # Linux / macOS
+source .venv/bin/activate    --  # Linux / macOS
 
 или
 
